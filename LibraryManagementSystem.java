@@ -96,8 +96,13 @@ public class LibraryManagementSystem {
         LibraryCatalog catalog = new LibraryCatalog();
 
         // Adding books to the catalog
-        catalog.addBook(new Book("1984", "George Orwell"));
-        catalog.addBook(new Book("To Kill a Mockingbird", "Harper Lee"));
+        catalog.addBook(new Book(" C", "Dennis Ritchie"));
+        catalog.addBook(new Book(" C++", " Bjarne Stroustrup"));
+        catalog.addBook(new Book("Java", "Sun Microsystems"));
+        catalog.addBook((new Book("Python", "Guido van Rossum")));
+        catalog.addBook((new Book("PHP", "Rasmus Lerdorf")));
+        catalog.addBook((new Book("JavaScript", " Brendan Eich")));
+        catalog.addBook((new Book("Ruby", "Yukihiro Matsumoto")));
 
         while (true) {
             System.out.println("\nLibrary Management System");
