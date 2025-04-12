@@ -1,12 +1,34 @@
-# LIBRARY-MANAGEMENT-SYSTEM
-A simple Java-based Library Management System designed to manage book inventory and user interactions for checking out and returning books. This console application demonstrates basic library functionalities and provides a text-based client interface for user interactions.
+# 📚 Library Management System - Java (Core + MySQL)
 
-Features
-Book Management: Create and manage books with attributes like title, author, and availability status.
-Search Functionality: Search for books by title or author.
-Check Out and Return: Enable users to check out and return books, with status updates for availability.
-Display All Books: List all books in the catalog with their current status.
-Technologies
-Java: Core programming language used for implementation.
-ArrayList: Utilized for storing and managing the book collection.
-Object-Oriented Programming (OOP): Applied principles for effective system design.
+A simple yet powerful **Library Management System** developed using **Core Java** and **MySQL** as part of an academic project. This system helps librarians manage book inventory, issue/return books, and maintain member records effectively through a user-friendly interface.
+
+---
+
+## 📝 Project Overview
+
+The **Library Management System** is designed to assist in the automation of typical library operations like:
+
+- Book entry & management
+- Issuing and returning books
+- Tracking overdue books
+- Managing student/member records
+
+It eliminates the need for manual record keeping and ensures more secure, accurate, and time-efficient library operations.
+
+---
+
+## 🎯 Objectives
+
+- 📗 Automate library functions such as issuing and returning books.
+- 👥 Manage member data including student IDs, names, and borrowed books.
+- 📦 Track book stock: available, issued, and returned.
+- 📆 Record date of issue/return and generate basic reports.
+- 🔐 Secure and role-based access to the system.
+
+---
+
+## 🧩 Core Features
+
+| Feature              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| 📖 **Book Management
